@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Type;
 use App\Models\Brand;
+use App\Models\Category;
+use App\Models\Name;
 use App\Models\Product;
 use Illuminate\Http\Request;
 
@@ -30,6 +32,8 @@ class TypeController extends Controller
     public function create()
     {
         return view('dashboard.products.types.create', [
+            'categories' => Category::all(),
+            'names' => Name::all(),
             'brands' => Brand::all()
         ]);
     }

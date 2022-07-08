@@ -11,6 +11,7 @@ use App\Http\Controllers\ReportController;
 use App\Http\Controllers\ReportDailyController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\ScheduleController;
+use App\Http\Controllers\GuestController;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Request;
@@ -30,12 +31,14 @@ use Illuminate\Support\Facades\Session;
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('firebaseguest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
+Route::get('/index', [GuestController::class, 'index']);
 
 Route::middleware(['firebaseauth'])->group(function (){
     Route::get("/", function (){
         // dd(Session::all());
         // dd(Request::is('/'));
         return view('dashboard.index');
+        // return view('welcome');
     });
 
     Route::resource('/users', UserController::class);
@@ -51,6 +54,7 @@ Route::middleware(['firebaseauth'])->group(function (){
 
     Route::resource('/reports', ReportController::class);
     Route::resource('/daily_reports', ReportDailyController::class);
+    Route::get('/getProducts/{id}', [Controller::class, 'getProducts']);
     Route::get('/getBrands/{id}', [Controller::class, 'getBrands']);
     Route::get('/getTypes/{id}', [Controller::class, 'getTypes']);
     Route::get('/getSerialNumbers/{id}', [Controller::class, 'getSerialNumbers']);

@@ -7,12 +7,19 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use App\Models\Brand;
+use App\Models\Name;
 use App\Models\Type;
 use App\Models\Product;
 
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    public function getProducts($cat_id){
+        $productData['data'] = Name::select('id','name')->where('category_id', $cat_id)->get();
+
+        return response()->json($productData);
+    }
 
     public function getBrands($name_id){
         $brandData['data'] = Brand::select('id','brand')->where('name_id', $name_id)->get();

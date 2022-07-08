@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Brand;
+use App\Models\Category;
 use App\Models\Name;
 use Illuminate\Http\Request;
 
@@ -28,6 +29,7 @@ class BrandController extends Controller
     public function create()
     {
         return view('dashboard.products.brands.create', [
+            'categories' => Category::all(),
             'names' => Name::all()
         ]);
     }
