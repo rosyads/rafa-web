@@ -2,7 +2,7 @@
 
 <div class="section bg-transparent mb-0">
     <div class="container">
-        <div class="heading-block center border-0" data-heading="O">
+        <div class="heading-block center border-0" data-heading="PS">
             <h3 class="nott ls0">Product and Services</h3>
         </div>
 

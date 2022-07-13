@@ -2,8 +2,8 @@
 
 <div class="section m-0 clearfix bg-transparent" style="padding: 80px 0">
     <div class="container">
-        <div class="heading-block center border-0" data-heading="P">
-            <h3 class="nott ls0">Principals</h3>
+        <div class="heading-block center border-0" data-heading="C">
+            <h3 class="nott ls0">Customers</h3>
         </div>
 
     </div>
@@ -17,4 +17,4 @@
         <div class="oc-item"><a href="#"><img src="/img/guest/specifics/clients/amazon.svg" style="height: 24px" alt="Brands"></a></div>
 
     </div>
-</div>
+</div>  

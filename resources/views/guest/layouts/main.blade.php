@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="/css/guest/animate.css" type="text/css" />
 	<link rel="stylesheet" href="/css/guest/magnific-popup.css" type="text/css" />
 
-	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="/css/guest/et-line.css" type="text/css" />
 
 	<link rel="stylesheet" href="/css/guest/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -88,7 +88,7 @@
 
 				<!-- Brands Carousel Customer
 				============================================= -->
-				@include("guest.contents.section8")
+				@include("guest.contents.section9")
 			</div>
 		</section><!-- #content end -->
 

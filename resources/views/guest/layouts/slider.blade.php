@@ -10,7 +10,7 @@
 								<div class="slider-caption slider-caption-center">
 									<div>
 										<h2 class="font-primary nott">Selamat Datang</h2>
-										<p class="fw-light font-primary d-none d-sm-block">PT. NORMA Diagnostika Indonesia.</p>
+										<p class="fw-light font-primary {{-- d-none --}} d-sm-block">PT. NORMA Diagnostika Indonesia.</p>
 										<a href="#" class="button button-rounded button-large nott ls0 font-primary">Tentang Kami</a>
 									</div>
 								</div>
@@ -22,37 +22,37 @@
 								<div class="slider-caption slider-caption-center">
 									<div>
 										<h2 class="font-primary">IT Healthcare</h2>
-										<p class="fw-light font-primary d-none d-sm-block">Sistem Solusi untuk Rumah Sakit, Radiologi, dan Laboratorium.</p>
+										<p class="fw-light font-primary {{-- d-none --}} d-sm-block">Solution System for Hospital, Radiology, and Laboratory.</p>
 										
 										<a href="#" class="button button-rounded button-large nott ls0 font-primary">Product Overview</a>
 									</div>
 								</div>
 							</div>
-							<div class="swiper-slide-bg" style="background-image: url('/img/guest/specifics/slider/2.jpg');"></div>
+							<div class="swiper-slide-bg" style="background-image: url('/img/guest/specifics/slider/slide header 3.png');"></div>
 						</div>
 						<div class="swiper-slide dark">
 							<div class="container">
 								<div class="slider-caption slider-caption-center">
 									<div>
 										<h2 class="font-primary">Laboratory Diagnostic</h2>
-										<p class="fw-light font-primary d-none d-sm-block">CLINICAL PATHOLOGY, Chemical Chemistry, Urine, Hematology, Serology, Immunology, Blood Gas, ANATOMY PATHOLOGY, MICROBIOLOGY, Biomolecular, ENVIRONMENTAL HEALTH.</p>
+										<p class="fw-light font-primary {{-- d-none --}} d-sm-block">CLINICAL PATHOLOGY, Chemical Chemistry, Urine, Hematology, Serology, Immunology, Blood Gas, ANATOMY PATHOLOGY, MICROBIOLOGY, Biomolecular, ENVIRONMENTAL HEALTH.</p>
 										<a href="#" class="button button-rounded button-large nott ls0 font-primary">Product Overview</a>
 									</div>
 								</div>
 							</div>
-							<div class="swiper-slide-bg" style="background-image: url('/img/guest/specifics/slider/3.jpg');"></div>
+							<div class="swiper-slide-bg" style="background-image: url('/img/guest/specifics/slider/slide header 1.png');"></div>
 						</div>
 						<div class="swiper-slide dark">
 							<div class="container">
 								<div class="slider-caption slider-caption-center">
 									<div>
 										<h2 class="font-primary">Medical Equipment</h2>
-										<p class="fw-light font-primary d-none d-sm-block">RADIOLOGY, EQUIPMENT, Oxygen Plant, Medical Waste Sterilizer, Airway Clearance System, LABORATORY SUPPORT DEVICE, and Microscope.</p>
+										<p class="fw-light font-primary {{-- d-none --}} d-sm-block">RADIOLOGY, EQUIPMENT, Oxygen Plant, Medical Waste Sterilizer, Airway Clearance System, LABORATORY SUPPORT DEVICE, and Microscope.</p>
 										<a href="#" class="button button-rounded button-large nott ls0 font-primary">Product Overview</a>
 									</div>
 								</div>
 							</div>
-							<div class="swiper-slide-bg" style="background-image: url('/img/guest/specifics/slider/3.jpg');"></div>
+							<div class="swiper-slide-bg" style="background-image: url('/img/guest/specifics/slider/slide header 2.png');"></div>
 						</div>
 					</div>
 					<!-- Slider Arrows

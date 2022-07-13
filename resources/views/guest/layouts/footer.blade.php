@@ -8,7 +8,7 @@
 
 					<div class="row col-mb-50">
 						<div class="col-md-3">
-							<img src="/img/guest/specifics/logo@2x.png" alt="Image" height="100" style="margin-top: -30px">
+							<img src="/img/guest/specifics/logo@2x.png" alt="Image" height="150" style="margin-top: -30px">
 						</div>
 
 						<div class="col-md-9">
