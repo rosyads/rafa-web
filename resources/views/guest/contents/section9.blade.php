@@ -1,6 +1,6 @@
 
 
-<div class="section m-0 clearfix bg-transparent" style="padding: 80px 0">
+<div class="section m-0 clearfix bg-white" style="padding: 80px 0">
     <div class="container">
         <div class="heading-block center border-0" data-heading="C">
             <h3 class="nott ls0">Customers</h3>

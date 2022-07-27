@@ -1,14 +1,14 @@
 <!-- Footer
 		============================================= -->
-		<footer id="footer" class="border-0" style="padding: 30px 0; background-color: #FFF">
-			<div class="container clearfix">
+		<footer id="footer" class="border-0" style="padding: 30px 0; background-color: #542C4B">
+			<div class="container bg-norma-dark">
 				<!-- Footer Widgets
 				============================================= -->
 				<div class="footer-widgets-wrap">
 
 					<div class="row col-mb-50">
 						<div class="col-md-3">
-							<img src="/img/guest/specifics/logo@2x.png" alt="Image" height="150" style="margin-top: -30px">
+							<img src="/img/guest/specifics/logo@2x.png" alt="Image" height="100" style="margin-top: -30px; background-color: #fff">
 						</div>
 
 						<div class="col-md-9">
@@ -16,49 +16,49 @@
 							<div class="row col-mb-30">
 								<div class="col-sm-6 col-lg-3">
 									<div class="widget widget_links widget-li-noicon clearfix">
-										<h4>Hire</h4>
+										{{-- <h4>Tentang Kami</h4>
 										<ul>
 											<li><a href="#">Documentation</a></li>
 											<li><a href="#">Feedback</a></li>
 											<li><a href="#">Plugins</a></li>
 											<li><a href="#">Support Forums</a></li>
 											<li><a href="#">Themes</a></li>
+										</ul> --}}
+									</div>
+								</div>
+								<div class="col-sm-6 col-lg-3">
+									<div class="widget widget_links widget-li-noicon clearfix">
+										<h4>Karir</h4>
+										<ul>
+											{{-- <li><a href="#">Documentation</a></li>
+											<li><a href="#">Feedback</a></li>
+											<li><a href="#">Plugins</a></li>
+											<li><a href="#">Support Forums</a></li>
+											<li><a href="#">Themes</a></li> --}}
 										</ul>
 									</div>
 								</div>
 								<div class="col-sm-6 col-lg-3">
 									<div class="widget widget_links widget-li-noicon clearfix">
-										<h4>Community</h4>
+										<h4>Produk</h4>
 										<ul>
-											<li><a href="#">Documentation</a></li>
+											{{-- <li><a href="#">Documentation</a></li>
 											<li><a href="#">Feedback</a></li>
 											<li><a href="#">Plugins</a></li>
 											<li><a href="#">Support Forums</a></li>
-											<li><a href="#">Themes</a></li>
+											<li><a href="#">Themes</a></li> --}}
 										</ul>
 									</div>
 								</div>
 								<div class="col-sm-6 col-lg-3">
 									<div class="widget widget_links widget-li-noicon clearfix">
-										<h4>Learn</h4>
+										<h4>Tentang Kami</h4>
 										<ul>
-											<li><a href="#">Documentation</a></li>
+											{{-- <li><a href="#">Documentation</a></li>
 											<li><a href="#">Feedback</a></li>
 											<li><a href="#">Plugins</a></li>
 											<li><a href="#">Support Forums</a></li>
-											<li><a href="#">Themes</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-3">
-									<div class="widget widget_links widget-li-noicon clearfix">
-										<h4>About</h4>
-										<ul>
-											<li><a href="#">Documentation</a></li>
-											<li><a href="#">Feedback</a></li>
-											<li><a href="#">Plugins</a></li>
-											<li><a href="#">Support Forums</a></li>
-											<li><a href="#">Themes</a></li>
+											<li><a href="#">Themes</a></li> --}}
 										</ul>
 									</div>
 								</div>

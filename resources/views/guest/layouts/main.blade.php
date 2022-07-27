@@ -52,7 +52,7 @@
 		============================================= -->
 		<section id="content">
 
-			<div class="content-wrap pb-0" style="z-index: 1;">
+			<div class="content-wrap pb-0 bg-norma-dark" style="z-index: 1;">
 
 				<!-- What We Do
         		============================================= -->

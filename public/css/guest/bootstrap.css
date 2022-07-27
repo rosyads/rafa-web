@@ -8449,6 +8449,16 @@ textarea.form-control-lg {
 	background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-norma-dark {
+	--bs-bg-opacity: 1;
+	background-color: rgba(88, 44, 75, var(--bs-bg-opacity)) !important;
+}
+
+.bg-norma-light {
+	--bs-bg-opacity: 1;
+	background-color: rgba(176, 147, 172, var(--bs-bg-opacity)) !important;
+}
+
 .bg-body {
 	--bs-bg-opacity: 1;
 	background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
