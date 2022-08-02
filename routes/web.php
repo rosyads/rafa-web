@@ -32,6 +32,7 @@ Route::get('/login', [LoginController::class, 'index'])->name('login')->middlewa
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
 Route::get('/index', [GuestController::class, 'index']);
+Route::get('/zetta-pacs', [GuestController::class, 'product']);
 
 Route::middleware(['firebaseauth'])->group(function (){
     Route::get("/", function (){

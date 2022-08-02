@@ -11,4 +11,10 @@ class GuestController extends Controller
             
         ]);
     }
+
+    public function product(){
+        return view("guest.products.index", [
+
+        ]);
+    }
 }
