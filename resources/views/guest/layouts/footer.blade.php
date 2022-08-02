@@ -68,7 +68,7 @@
 
 							<div class="row justify-content-between col-mb-30">
 								<div class="col-12 col-md-auto text-center text-md-start">
-									<small class="fw-light" style="color: #AAA">Copyrights &copy; 2022 All Rights Reserved by Norma Diagnostika Indonesia.</small>
+									<small class="fw-light" style="color: #AAA">Copyrights &copy; {{ now()->year }} All Rights Reserved by Norma Diagnostika Indonesia.</small>
 								</div>
 
 								<div class="col-12 col-md-auto text-center text-md-end">
