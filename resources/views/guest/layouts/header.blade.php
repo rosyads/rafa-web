@@ -10,8 +10,8 @@
 						<!-- Logo
 						============================================= -->
 						<div id="logo">
-							<a href="index.html" class="standard-logo" data-dark-logo="/img/guest/specifics/logo-dark.png"><img src="/img/guest/specifics/logo.png" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo" data-dark-logo="/img/guest/specifics/logo-dark@2x.png"><img src="/img/guest/specifics/logo@2x.png" alt="Canvas Logo"></a>
+							<a href="/index" class="standard-logo" data-dark-logo="/img/guest/specifics/logo-dark.png"><img src="/img/guest/specifics/logo.png" alt="Canvas Logo"></a>
+							<a href="/index" class="retina-logo" data-dark-logo="/img/guest/specifics/logo-dark@2x.png"><img src="/img/guest/specifics/logo@2x.png" alt="Canvas Logo"></a>
 						</div><!-- #logo end -->
 
 						<div class="header-misc">  
@@ -33,8 +33,8 @@
 						<nav class="primary-menu not-dark">
 
 							<ul class="menu-container">
-								<li class="menu-item active"><a class="menu-link" href="#"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#"><div>Tentang Kami</div></a></li>
+								<li class="menu-item active"><a class="menu-link" href="/index"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="/about-us"><div>Tentang Kami</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="#"><div>Produk</div></a>
 									<ul class="sub-menu-container">
 										<li class="menu-item"><a class="menu-link" href="#"><div>IT Healthcare</div></a></li>

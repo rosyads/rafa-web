@@ -36,7 +36,9 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>PT. Norma Diagnostika Indonesia</title>
+	<title>{{ $title }} | PT. Norma Diagnostika Indonesia</title>
+
+	@yield('head-scripts')
 
 </head>
 
@@ -67,22 +69,7 @@
 	============================================= -->
 	<script src="/js/guest/functions.js"></script>
 
-	<script>
-		jQuery(window).on( 'pluginCarouselReady', function(){
-			$('#oc-features').owlCarousel({
-				items: 1,
-				margin: 60,
-			    nav: true,
-			    navText: ['<i class="icon-line-arrow-left"></i>','<i class="icon-line-arrow-right"></i>'],
-			    dots: false,
-			    stagePadding: 30,
-			    responsive:{
-					768: { items: 2 },
-					1200: { stagePadding: 200 }
-				},
-			});
-		});
-	</script>
+	@yield('scripts')
 
 </body>
 </html>

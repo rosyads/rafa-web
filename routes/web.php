@@ -31,8 +31,10 @@ use Illuminate\Support\Facades\Session;
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('firebaseguest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
+
 Route::get('/index', [GuestController::class, 'index']);
 Route::get('/zetta-pacs', [GuestController::class, 'product']);
+Route::get('/about-us', [GuestController::class, 'about']);
 
 Route::middleware(['firebaseauth'])->group(function (){
     Route::get("/", function (){

@@ -30,11 +30,11 @@
 									<div class="widget widget_links widget-li-noicon clearfix">
 										<h4>Karir</h4>
 										<ul>
-											{{-- <li><a href="#">Documentation</a></li>
+											<li><a href="#">Documentation</a></li>
 											<li><a href="#">Feedback</a></li>
 											<li><a href="#">Plugins</a></li>
 											<li><a href="#">Support Forums</a></li>
-											<li><a href="#">Themes</a></li> --}}
+											<li><a href="#">Themes</a></li>
 										</ul>
 									</div>
 								</div>
@@ -42,11 +42,11 @@
 									<div class="widget widget_links widget-li-noicon clearfix">
 										<h4>Produk</h4>
 										<ul>
-											{{-- <li><a href="#">Documentation</a></li>
+											<li><a href="#">Documentation</a></li>
 											<li><a href="#">Feedback</a></li>
 											<li><a href="#">Plugins</a></li>
 											<li><a href="#">Support Forums</a></li>
-											<li><a href="#">Themes</a></li> --}}
+											<li><a href="#">Themes</a></li>
 										</ul>
 									</div>
 								</div>
@@ -54,11 +54,11 @@
 									<div class="widget widget_links widget-li-noicon clearfix">
 										<h4>Tentang Kami</h4>
 										<ul>
-											{{-- <li><a href="#">Documentation</a></li>
+											<li><a href="#">Documentation</a></li>
 											<li><a href="#">Feedback</a></li>
 											<li><a href="#">Plugins</a></li>
 											<li><a href="#">Support Forums</a></li>
-											<li><a href="#">Themes</a></li> --}}
+											<li><a href="#">Themes</a></li>
 										</ul>
 									</div>
 								</div>

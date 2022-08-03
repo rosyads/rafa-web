@@ -42,6 +42,10 @@
 			============================================= -->
 			@include("guest.contents.section8")
 
+			<!-- Brands Carousel SubDistributor
+			============================================= -->
+			@include("guest.contents.section10")
+
 			<!-- Brands Carousel Customer
 			============================================= -->
 			@include("guest.contents.section9")
@@ -56,4 +60,23 @@
 
 @section('fonts')
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,700|Open+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet" type="text/css" />
+@endsection
+
+@section('scripts')
+	<script>
+		jQuery(window).on( 'pluginCarouselReady', function(){
+			$('#oc-features').owlCarousel({
+				items: 1,
+				margin: 60,
+				nav: true,
+				navText: ['<i class="icon-line-arrow-left"></i>','<i class="icon-line-arrow-right"></i>'],
+				dots: false,
+				stagePadding: 30,
+				responsive:{
+					768: { items: 2 },
+					1200: { stagePadding: 200 }
+				},
+			});
+		});
+	</script>
 @endsection
